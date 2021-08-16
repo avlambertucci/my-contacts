@@ -8,3 +8,13 @@
 
 ### Docker init command:
 `sudo dockerd` dockerd is the daemon service for docker containers, because it is not running in background we're not able to take any actions related to the service, which needs be restarted.
+
+### Exec container
+`docker exec -it <containername> bash`
+
+### SQL QUICK CLI
+\l - list all dbs
+\c - connect to a db
+\dt - list all tables
+
+
